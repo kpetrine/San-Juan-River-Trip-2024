@@ -1,0 +1,34 @@
+#san-juan {
+    text-align: center;
+    color:#1f081c;
+}
+#menu 
+table, th, td {
+    border: 1px solid;
+    }
+  #cookteam
+  input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+  }
+  #game
+  ul.b
+  {list-style-position: inside;}
+
+  
+
+  img {
+    border-radius: 8px;
+  }
+    
+body {
+    background-color: rgb(183, 162, 202);
+}
+
+/* ID is only used once */
+/* Element Selectors effect EVERY one of that element project wide */
+/* Classes can be applied to anything, and more than one can be applied by separating them with a space */

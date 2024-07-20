@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Team Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- added arial font for accessibility -->
+ <!-- added links to navigate website -->
+<body  style="font-family:Arial, Helvetica, sans-serif">
+    <!--NOTE CTRL + / creates a comment-->
+     <!--ANCHOR navbar - begin -->
+     <a href="./index.html">Home</a>
+     <br />
+     <a href="games.html">Games</a>
+     <br />
+     <a href="menu.html">Menu</a>
+     <br />
+     <a href="cookteam.html">Cook Team</a>
+      <!-- navbar - end -->
+<body>
+    <h2 class="cookteam">Cook Teams</h2>
+    <!-- added class to edit form -->
+    <!-- added description and expectations about team work and contributions during trip -->
+    <p>Please sign up for a Cook Team. You will be cooking one day and off for the others. 
+        It is best to choose a cook team that your camp mates aren't on so they can set up your camp and 
+        pack up when you are cooking. It is also a great opportunity to make new friends.</p>
+       <!-- added form for cook team sign up -->
+        <form action="/action_page.php" method="get">
+           <div>
+            <label for="name">Name:</label>
+           </div>
+            
+            <div>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div>
+                <label for="day">Day 1 or Day 2:</label>
+            </div>
+            <div>
+                <input type="text" id="day" name="day">
+            </div>
+            <div><input type="submit" value="Submit"></div>
+            
+          </form>
+          <br>
+          <!-- added alt description for accessibility -->
+          <img src="cookteam.jpg" alt="People standing by camp kitchen" width="800">
+</body>
+</html>
