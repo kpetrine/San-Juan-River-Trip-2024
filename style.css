@@ -6,6 +6,7 @@
 table, th, td {
     border: 1px solid;
     }
+    
   #cookteam
   input[type=text] {
     background-color: white;
@@ -19,9 +20,7 @@ table, th, td {
   ul.b
   {list-style-position: inside;}
 
-  
-
-  img {
+   img {
     border-radius: 8px;
   }
     
